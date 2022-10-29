@@ -82,7 +82,7 @@ btnHold.addEventListener('click', function () {
     score0El.textContent =
       Number(score0El.textContent) + Number(current0El.textContent);
     current0El.textContent = 0;
-    if (Number(score0El.textContent) > 20) {
+    if (Number(score0El.textContent) > 100) {
       //Print the player win
       displayWinner(name0El /*, score0El.textContent, score1El.textContent*/);
     }
@@ -91,7 +91,7 @@ btnHold.addEventListener('click', function () {
     score1El.textContent =
       Number(score1El.textContent) + Number(current1El.textContent);
     current1El.textContent = 0;
-    if (Number(score1El.textContent) > 20) {
+    if (Number(score1El.textContent) > 100) {
       //Print the player win
       displayWinner(name0El /*, score1El.textContent, score0El.textContent*/);
     }
