@@ -19,8 +19,8 @@ score0El.textContent = 0;
 score1El.textContent = 0;
 current0El.textContent = 0;
 current1El.textContent = 0;
-name0El.textContent = prompt('Введите ваше имя: ', 'Красотка');
-name1El.textContent = prompt('Введите ваше имя: ', 'Красавчик');
+// name0El.textContent = prompt('Введите ваше имя: ', 'Красотка');
+// name1El.textContent = prompt('Введите ваше имя: ', 'Красавчик');
 // let player = true;
 
 const checkActive = function (player) {
